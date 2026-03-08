@@ -39,6 +39,15 @@ namespace MyTestApi.Repositories
                 phone = "1-463-123-4447",
                 website = "ramiro.info",
             });
+
+            Create(new User
+            {
+                name = "Clementine Bauch2",
+                username = "Samantha2",
+                email = "Nathan@yesenia.net2",
+                phone = "1-463-123-44472",
+                website = "ramiro.info2",
+            });
         }
 
         public IEnumerable<User> GetAll() => _users.Values;
